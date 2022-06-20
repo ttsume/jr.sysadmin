@@ -4,7 +4,7 @@
 Vagrant.configure("2") do |config|
 
   config.vm.box = "generic/debian9"
-  config.disksize.size = '10GB'
+ 
   
   config.vm.provider "virtualbox" do |vb|
   vb.name = "debian"
